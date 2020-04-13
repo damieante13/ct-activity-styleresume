@@ -1,0 +1,67 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(black, rgb(5, 5, 78));
+   font-family: 'Titillium Web', sans-serif;
+   margin: 0;
+}
+
+#headshot img {
+border: 5px solid black;
+border-radius: 50%;
+}
+
+.mainDetails {
+    background-image: linear-gradient(rgba(255,81,47,0.3), rgba(221,36,118,0.5)), 
+     url("../1-apprentice/assets/images/coral.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    overflow: auto;
+}
+
+#name {
+    line-height: 60%;
+}
+
+#contactDetails {
+    line-height: 100%;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+#contactDetails ul {
+    list-style-type: none;
+}
+
+#mainArea {
+  width: 100%;
+  padding: 5px;
+}
+
+.sectionTitle {
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;
+}
+
+.sectionContent {
+    background-color: rgb(221,36,118);
+    border-radius: 5px;
+    color: white;
+    padding-left: 20px;  
+}
+
+.subDetails {
+    background-color: rgb(255,81,47);
+    color: black;
+    padding-left: 20px;
+}
